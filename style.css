@@ -5,17 +5,19 @@ body{
 
 h1{
     color: #ff291a;
-    text-align: center;
     font-family: serif;
+}
+.midashi{
+    text-align: center;
 }
 
 hr{
-    border: 2px dashed black;
+    border: 2px dashed seagreen;
 }
 
 img{
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
     margin: auto;
 }
 
