@@ -1,0 +1,30 @@
+body{
+    background-color: lightcyan;
+    font-family: sans-serif;
+}
+
+h1{
+    color: #ff291a;
+    text-align: center;
+    font-family: serif;
+}
+
+hr{
+    border: 2px dashed black;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+a::before{
+    content: "◀︎";
+}
+a:visited{
+    color: blue;
+}
