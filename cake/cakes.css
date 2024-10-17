@@ -1,0 +1,13 @@
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cakes{
+    width: 50%;
+    float: left;
+}
+.cakes img {
+    width: 100%;
+}
