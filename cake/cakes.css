@@ -1,13 +1,111 @@
 
+html{
+    font-size: 16px;
+    font-family: serif;
+}
+body{
+    background-color: white;
+    margin: 0;
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 28px;
+}
+p{
+    padding-left: 10px;
+}
+img {
+    width: 100%;
+}
+
+header h1{
+    margin-bottom: 5px;
+}
+header h1::before{
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url(images/logo.svg);
+    background-size: contain;
+    vertical-align: bottom;
+}
+.loc{
+    font-size: 0.6em;
+}
+.shopname{
+    font-size: 1.5em;
+    color: #C30D23;
+}
+
+main{
+    border-width: 8px 0;
+    border-style: double;
+    border-color: #C30D23;
+}
+.intro{
+    margin: 20px 0;
+    padding: 10px 0;
+    background-color: #ffcccc;
+}
+.hero{
+    background-image: url(images/shop.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: lighten;
+}
+.hero h2{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0 50px;
+}
+
+.menu{
+    margin: 20px 0;
+    padding-top: 5px;
+    background-color: #FCF9D9;
+    padding-left: 1%;
+}
+.catch:after, .catch:before{
+    border-top: 3px solid;
+    color: #C30D23;
+    content: "";
+    width: 2em;
+}
+.catch:before {
+    margin-right: 0.5em;
+}
+.catch:after {
+    margin-left: 0.5em;
+}
 .wrap{
     display: flex;
     flex-wrap: wrap;
 }
-
-.cakes{
-    width: 50%;
+.foo{
+    width: 49%;
+    padding-right: 1%;
     float: left;
 }
-.cakes img {
-    width: 100%;
+.cakes h3{
+    border-left: #C30D23 solid 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    padding-left: 5px;
 }
+
+footer{
+    text-align: center;
+    padding: 30px 0;
+}
+
+/*
+logo.svg : coloer ピンク, #ffcccc
+クリーム色, #FCF9D9
+*/
